@@ -1,1 +1,4 @@
 port.lock
+options/usage.statistics.xml
+workspace/*
+options/actionSummary.xml
