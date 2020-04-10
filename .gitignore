@@ -4,3 +4,7 @@ options/actionSummary.xml
 options/recentProjects.xml
 options/usage.statistics.xml
 options/window.state.xml
+options/other.xml
+options/images.support.xml
+options/find.xml
+disabled_plugins.txt
