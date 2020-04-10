@@ -1,27 +1,57 @@
 <application>
   <component name="CachedDictionaryState">
     <words>
+      <w>addopts</w>
       <w>airskip</w>
       <w>arcc</w>
+      <w>artifactory</w>
+      <w>autobuild</w>
       <w>autodeployment</w>
       <w>automagically</w>
       <w>avheur</w>
       <w>avira</w>
+      <w>basepython</w>
       <w>bestwalter</w>
+      <w>bitarray</w>
       <w>bitbucket</w>
       <w>boto</w>
+      <w>conftest</w>
       <w>dataroot</w>
       <w>deployable</w>
       <w>deployer</w>
       <w>devbox</w>
+      <w>distdir</w>
+      <w>envdir</w>
+      <w>envlist</w>
+      <w>envsitepackagesdir</w>
+      <w>firstparty</w>
+      <w>isort</w>
+      <w>jetbrains</w>
+      <w>junitxml</w>
       <w>localdev</w>
+      <w>localfolder</w>
       <w>logstash</w>
       <w>nopasswd</w>
       <w>obestwalter</w>
       <w>parametrizing</w>
+      <w>passenv</w>
+      <w>posargs</w>
+      <w>pypi</w>
+      <w>pytest</w>
+      <w>recommonmark</w>
+      <w>scipy</w>
       <w>semac</w>
+      <w>setenv</w>
+      <w>showlocals</w>
+      <w>sklearn</w>
       <w>sourceable</w>
+      <w>subfolder</w>
       <w>sudoers</w>
+      <w>testenv</w>
+      <w>thirdparty</w>
+      <w>toxinidir</w>
+      <w>toxworkdir</w>
+      <w>usedevelop</w>
       <w>venv</w>
     </words>
   </component>
