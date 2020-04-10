@@ -29,7 +29,9 @@
         <option name="ID" value="ConsoleContent" />
         <option name="placeInGrid" value="bottom" />
       </ViewImpl>
-      <TabImpl />
+      <TabImpl>
+        <option name="bottomProportion" value="0.0" />
+      </TabImpl>
     </runner>
   </component>
 </application>
