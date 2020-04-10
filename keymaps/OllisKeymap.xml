@@ -2,6 +2,9 @@
   <action id="CheckinFiles">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
+  <action id="DirDiffMenu.EnableNotEqual">
+    <keyboard-shortcut first-keystroke="shift ctrl 0" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorScrollDown" />
@@ -17,12 +20,22 @@
   <action id="JupyterSelectCellBelowAction" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="ToggleBookmark0" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
