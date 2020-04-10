@@ -1,4 +1,5 @@
 port.lock
-options/usage.statistics.xml
 workspace/*
 options/actionSummary.xml
+options/recentProjects.xml
+options/usage.statistics.xml
