@@ -3,3 +3,4 @@ workspace/*
 options/actionSummary.xml
 options/recentProjects.xml
 options/usage.statistics.xml
+options/window.state.xml
