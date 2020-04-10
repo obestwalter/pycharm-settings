@@ -2,7 +2,27 @@
   <action id="CheckinFiles">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
   <action id="ExpressionTypeInfo" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="JupyterSelectCellAboveAction" />
+  <action id="JupyterSelectCellBelowAction" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>

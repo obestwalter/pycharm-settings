@@ -185,6 +185,13 @@
   <inspection_tool class="PuppetUnresolved" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PyArgumentEqualDefaultInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="PyAugmentAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoredErrors">
+      <list>
+        <option value="N801" />
+      </list>
+    </option>
+  </inspection_tool>
   <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PyramidSetupInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="Query_bound_parameters" enabled="false" level="WARNING" enabled_by_default="false" />
