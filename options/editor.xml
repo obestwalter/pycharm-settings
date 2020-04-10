@@ -4,6 +4,9 @@
     <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="OllisInspections" />
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="16" />
+  </component>
   <component name="EditorSettings">
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
