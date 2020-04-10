@@ -1,0 +1,27 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="appcds.runOnSecondStart" value="PY-201.6668.115-4b9ad613a41594beaa8884366196709b402f3c412cafa5f5129230bd5c88fef3" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/avira/code/arcc/avira-ai-tools" />
+    <property name="file.gist.reindex.count" value="12349" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="lastSeenTip" value="neue-Compare.html" />
+    <property name="lastTimeTipsWereShown" value="1586508593594" />
+    <property name="last_opened_file_path" value="$USER_HOME$/avira/code/arcc/avira-ai-tools" />
+    <property name="seenTips" value="neue-ba37b255.html,neue-CamelPrefixesInNavigationPopups.html,neue-Compare.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.8.2" />
+  </component>
+</application>
