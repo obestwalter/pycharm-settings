@@ -10,3 +10,4 @@ options/find.xml
 disabled_plugins.txt
 options/KeyPromoterXStatistic.xml
 options/KeyPromoterXSettings.xml
+tasks/*
