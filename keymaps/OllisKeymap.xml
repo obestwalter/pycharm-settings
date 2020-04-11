@@ -23,6 +23,9 @@
   <action id="DirDiffMenu.EnableNotEqual">
     <keyboard-shortcut first-keystroke="shift ctrl 0" />
   </action>
+  <action id="DockPinnedMode">
+    <keyboard-shortcut first-keystroke="alt f12" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorScrollDown" />
@@ -43,6 +46,7 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="Graph.ApplyCurrentLayout" />
+  <action id="IntroduceVariable" />
   <action id="JupyterSelectCellAboveAction" />
   <action id="JupyterSelectCellBelowAction" />
   <action id="MethodOverloadSwitchDown" />
@@ -72,6 +76,9 @@
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="ctrl f1" />
+  </action>
   <action id="ToggleBookmark0" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
@@ -80,6 +87,12 @@
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="VenvConfigPlugin.com.github.nokia.ConfigureModulePythonVenv">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+  </action>
+  <action id="WindowMode">
+    <keyboard-shortcut first-keystroke="shift alt f12" />
+  </action>
   <action id="tasks.close">
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl c" />
   </action>
