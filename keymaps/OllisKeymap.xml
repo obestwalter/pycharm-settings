@@ -45,6 +45,10 @@
   <action id="CollapseTreeNode">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="CommentByBlockComment" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="shift ctrl 7" />
+  </action>
   <action id="Compare.SameVersion">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -65,13 +69,18 @@
   <action id="DockPinnedMode">
     <keyboard-shortcut first-keystroke="alt f12" />
   </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine" />
-  <action id="EditorDuplicate" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorScrollDown" />
@@ -112,6 +121,12 @@
   <action id="JupyterRunCellAction" />
   <action id="JupyterSelectCellAboveAction" />
   <action id="JupyterSelectCellBelowAction" />
+  <action id="Log.JumpToSource">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
@@ -142,6 +157,7 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="PreviousTab" />
+  <action id="ProjectRefreshAction" />
   <action id="PyExecuteCellAction" />
   <action id="QuickChangeScheme">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
@@ -165,6 +181,7 @@
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
   <action id="ToggleBookmark0" />
+  <action id="ToggleBookmark7" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
