@@ -1,4 +1,7 @@
 <keymap version="1" name="OllisKeymap" parent="Default for XWin">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
@@ -58,8 +61,12 @@
   <action id="DockPinnedMode">
     <keyboard-shortcut first-keystroke="alt f12" />
   </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
+  <action id="EditorDeleteLine" />
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorScrollDown" />
