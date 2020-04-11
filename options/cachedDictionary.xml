@@ -2,6 +2,7 @@
   <component name="CachedDictionaryState">
     <words>
       <w>addopts</w>
+      <w>addr</w>
       <w>airskip</w>
       <w>arcc</w>
       <w>artifactory</w>
@@ -31,6 +32,7 @@
       <w>debian</w>
       <w>deployable</w>
       <w>deployer</w>
+      <w>dest</w>
       <w>devbox</w>
       <w>devstack</w>
       <w>distdir</w>
@@ -61,6 +63,7 @@
       <w>literalinclude</w>
       <w>localdev</w>
       <w>localfolder</w>
+      <w>loggingsubproc</w>
       <w>logstash</w>
       <w>malware</w>
       <w>microvision</w>
@@ -74,6 +77,7 @@
       <w>parametrizing</w>
       <w>passenv</w>
       <w>passwd</w>
+      <w>pickleable</w>
       <w>posargs</w>
       <w>preproc</w>
       <w>preprocessing</w>
@@ -85,6 +89,8 @@
       <w>rabbitmq</w>
       <w>rabbitmqctl</w>
       <w>recommonmark</w>
+      <w>returncode</w>
+      <w>returncodes</w>
       <w>runenv</w>
       <w>scipy</w>
       <w>semac</w>
@@ -94,6 +100,7 @@
       <w>startdate</w>
       <w>starttime</w>
       <w>subfolder</w>
+      <w>subsubfolder</w>
       <w>sudoers</w>
       <w>sysinfo</w>
       <w>testenv</w>
@@ -107,6 +114,7 @@
       <w>versioneer</w>
       <w>vhost</w>
       <w>workdir</w>
+      <w>workingdir</w>
     </words>
   </component>
 </application>
