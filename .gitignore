@@ -15,3 +15,4 @@ terminal/history/*
 options/updates.xml
 options/packages.xml
 options/colors.scheme.xml
+options/markdown.xml

@@ -1,9 +1,27 @@
 <application>
   <component name="CachedDictionaryState">
     <words>
+      <w>aaad</w>
+      <w>aatd</w>
+      <w>aatr</w>
+      <w>aatt</w>
+      <w>aavd</w>
+      <w>aavr</w>
+      <w>aavt</w>
       <w>addopts</w>
       <w>addr</w>
+      <w>aeheur</w>
+      <w>agdd</w>
+      <w>agdr</w>
+      <w>agdt</w>
+      <w>agen</w>
+      <w>airbin</w>
+      <w>airbridge</w>
+      <w>airdevscripts</w>
+      <w>airrepos</w>
       <w>airskip</w>
+      <w>airsource</w>
+      <w>airtoolssource</w>
       <w>arcc</w>
       <w>artifactory</w>
       <w>asctime</w>
@@ -29,6 +47,8 @@
       <w>dacq</w>
       <w>dataroot</w>
       <w>dbapi</w>
+      <w>dbase</w>
+      <w>dbased</w>
       <w>debian</w>
       <w>deployable</w>
       <w>deployer</w>
@@ -60,16 +80,32 @@
       <w>jetbrains</w>
       <w>junitxml</w>
       <w>kubepod</w>
+      <w>levelname</w>
+      <w>libnotify</w>
+      <w>lineno</w>
       <w>literalinclude</w>
       <w>localdev</w>
       <w>localfolder</w>
       <w>loggingsubproc</w>
+      <w>loglevel</w>
       <w>logstash</w>
       <w>malware</w>
       <w>microvision</w>
+      <w>miniml</w>
+      <w>mllib</w>
       <w>monkeypatch</w>
+      <w>mvdd</w>
+      <w>mvdr</w>
+      <w>mvdt</w>
       <w>nightvision</w>
+      <w>nndd</w>
+      <w>nndr</w>
+      <w>nndt</w>
+      <w>nofile</w>
       <w>nopasswd</w>
+      <w>nvdd</w>
+      <w>nvdr</w>
+      <w>nvdt</w>
       <w>obestwalter</w>
       <w>oldpwd</w>
       <w>onboarding</w>
@@ -77,15 +113,18 @@
       <w>parametrizing</w>
       <w>passenv</w>
       <w>passwd</w>
+      <w>personalizable</w>
       <w>pickleable</w>
       <w>posargs</w>
       <w>preproc</w>
       <w>preprocessing</w>
       <w>proc</w>
       <w>procs</w>
+      <w>pssst</w>
       <w>psutil</w>
       <w>pypi</w>
       <w>pytest</w>
+      <w>pythondontwritebytecode</w>
       <w>rabbitmq</w>
       <w>rabbitmqctl</w>
       <w>recommonmark</w>
@@ -100,21 +139,28 @@
       <w>startdate</w>
       <w>starttime</w>
       <w>subfolder</w>
+      <w>subshell</w>
       <w>subsubfolder</w>
       <w>sudoers</w>
       <w>sysinfo</w>
       <w>testenv</w>
+      <w>tettnang</w>
       <w>thirdparty</w>
+      <w>thisfile</w>
       <w>tmpdir</w>
       <w>toxinidir</w>
       <w>toxworkdir</w>
       <w>tstart</w>
+      <w>ulimit</w>
+      <w>ulimits</w>
       <w>usedevelop</w>
       <w>venv</w>
       <w>versioneer</w>
       <w>vhost</w>
+      <w>virtualenvwrapper</w>
       <w>workdir</w>
       <w>workingdir</w>
+      <w>zshrc</w>
     </words>
   </component>
 </application>

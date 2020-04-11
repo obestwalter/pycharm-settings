@@ -195,7 +195,7 @@
   <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredPackages">
       <value>
-        <list size="11">
+        <list size="15">
           <item index="0" class="java.lang.String" itemvalue="avira-ai-tools" />
           <item index="1" class="java.lang.String" itemvalue="avira-ai-vision" />
           <item index="2" class="java.lang.String" itemvalue="avira-ai-algorithms" />
@@ -207,6 +207,10 @@
           <item index="8" class="java.lang.String" itemvalue="pika" />
           <item index="9" class="java.lang.String" itemvalue="hypothesis" />
           <item index="10" class="java.lang.String" itemvalue="moto" />
+          <item index="11" class="java.lang.String" itemvalue="celery" />
+          <item index="12" class="java.lang.String" itemvalue="yaml" />
+          <item index="13" class="java.lang.String" itemvalue="tenacity" />
+          <item index="14" class="java.lang.String" itemvalue="miniml" />
         </list>
       </value>
     </option>
@@ -235,6 +239,9 @@
   <inspection_tool class="ReservedWordUsedAsNameJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="Restricted_Python_calls" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ReturnFromFinallyBlockJS" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
+    <shellcheck_settings value="SC1090" />
+  </inspection_tool>
   <inspection_tool class="ShiftOutOfRangeJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SillyAssignmentJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="SqlAddNotNullColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
