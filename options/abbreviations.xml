@@ -4,6 +4,9 @@
       <action id="tasks.close">
         <abbreviation name="tsc" />
       </action>
+      <action id="Vcs.UpdateProject">
+        <abbreviation name="gp" />
+      </action>
       <action id="tasks.switch">
         <abbreviation name="tss" />
       </action>
