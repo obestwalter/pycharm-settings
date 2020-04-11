@@ -17,6 +17,7 @@
       <w>bitarray</w>
       <w>bitbucket</w>
       <w>boto</w>
+      <w>bugfix</w>
       <w>cids</w>
       <w>clouddata</w>
       <w>cloudformation</w>
@@ -57,6 +58,7 @@
       <w>localfolder</w>
       <w>logstash</w>
       <w>microvision</w>
+      <w>monkeypatch</w>
       <w>nightvision</w>
       <w>nopasswd</w>
       <w>obestwalter</w>
@@ -86,11 +88,13 @@
       <w>sysinfo</w>
       <w>testenv</w>
       <w>thirdparty</w>
+      <w>tmpdir</w>
       <w>toxinidir</w>
       <w>toxworkdir</w>
       <w>tstart</w>
       <w>usedevelop</w>
       <w>venv</w>
+      <w>versioneer</w>
       <w>workdir</w>
     </words>
   </component>
