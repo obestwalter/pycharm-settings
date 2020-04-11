@@ -2,6 +2,13 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="AutoIndentLines" />
+  <action id="BLACKReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="CheckinFiles">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
@@ -38,6 +45,8 @@
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="DatabaseView.CopyTable" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="DirDiffMenu.EnableNotEqual">
     <keyboard-shortcut first-keystroke="shift ctrl 0" />
   </action>
@@ -51,11 +60,23 @@
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="ExpressionTypeInfo" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="control alt button1" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="ctrl down" />
@@ -64,6 +85,9 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="Graph.ApplyCurrentLayout" />
+  <action id="InspectCode">
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
+  </action>
   <action id="IntroduceVariable" />
   <action id="JupyterSelectCellAboveAction" />
   <action id="JupyterSelectCellBelowAction" />
@@ -89,16 +113,19 @@
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
+  <action id="NextTab" />
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
+  <action id="PreviousTab" />
   <action id="QuickChangeScheme">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="QuickEvaluateExpression" />
+  <action id="ReformatCode" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -108,6 +135,7 @@
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="ShowReformatFileDialog" />
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
