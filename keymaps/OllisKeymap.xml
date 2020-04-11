@@ -5,7 +5,21 @@
   <action id="CheckinFiles">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CloseEditor">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="ContextHelp" />
+  <action id="CopyElement" />
+  <action id="DatabaseView.CopyTable" />
   <action id="DirDiffMenu.EnableNotEqual">
     <keyboard-shortcut first-keystroke="shift ctrl 0" />
   </action>
@@ -13,6 +27,8 @@
   <action id="EditorLookupUp" />
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
   <action id="ExpressionTypeInfo" />
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="ctrl down" />
@@ -20,6 +36,7 @@
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
+  <action id="Graph.ApplyCurrentLayout" />
   <action id="JupyterSelectCellAboveAction" />
   <action id="JupyterSelectCellBelowAction" />
   <action id="MethodOverloadSwitchDown" />
@@ -30,6 +47,10 @@
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
+  <action id="QuickChangeScheme">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="QuickEvaluateExpression" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -42,5 +63,18 @@
   <action id="ToggleBookmark0" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+  <action id="tasks.close">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl c" />
+  </action>
+  <action id="tasks.goto">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl o" />
+  </action>
+  <action id="tasks.switch">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl s" />
   </action>
 </keymap>
