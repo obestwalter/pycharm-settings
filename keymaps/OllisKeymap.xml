@@ -61,10 +61,10 @@
   <action id="EditorUnSelectWord" />
   <action id="ExpressionTypeInfo" />
   <action id="FindNext">
-    <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
   <action id="FindPrevious">
-    <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt right" />
