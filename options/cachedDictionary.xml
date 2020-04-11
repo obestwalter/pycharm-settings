@@ -23,6 +23,7 @@
       <w>cpuset</w>
       <w>dacq</w>
       <w>dataroot</w>
+      <w>dbapi</w>
       <w>debian</w>
       <w>deployable</w>
       <w>deployer</w>
@@ -30,6 +31,7 @@
       <w>devstack</w>
       <w>distdir</w>
       <w>dont</w>
+      <w>dontcare</w>
       <w>envdir</w>
       <w>envsitepackagesdir</w>
       <w>filepath</w>
@@ -47,6 +49,7 @@
       <w>jetbrains</w>
       <w>junitxml</w>
       <w>kubepod</w>
+      <w>literalinclude</w>
       <w>localdev</w>
       <w>localfolder</w>
       <w>logstash</w>
@@ -55,6 +58,7 @@
       <w>nopasswd</w>
       <w>obestwalter</w>
       <w>oldpwd</w>
+      <w>onboarding</w>
       <w>onedb</w>
       <w>parametrizing</w>
       <w>passenv</w>
