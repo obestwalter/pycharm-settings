@@ -1,0 +1,18 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2020-04-11T10:52:02</property>
+    <property name="ide">Python</property>
+    <property name="ideVersion">2020.1.0.0</property>
+    <property name="modified">2020-04-11T11:46:43</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="ERRORS_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9fe411" />
+        <option name="BACKGROUND" value="a80524" />
+        <option name="ERROR_STRIPE_COLOR" value="9fe411" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
