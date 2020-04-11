@@ -30,6 +30,12 @@
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="ExpressionTypeInfo" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="Git.Rename.Local.Branch">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
@@ -44,7 +50,13 @@
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
   <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="QuickChangeScheme">
@@ -65,7 +77,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="Vcs.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="f5" />
+    <keyboard-shortcut first-keystroke="shift f5" />
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="tasks.close">
