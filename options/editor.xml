@@ -3,7 +3,9 @@
     <option name="REFORMAT_ON_PASTE" value="1" />
     <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="OllisInspections" />
+  <component name="DaemonCodeAnalyzerSettings" profile="OllisInspections">
+    <option name="SHOW_METHOD_SEPARATORS" value="true" />
+  </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="16" />
   </component>
