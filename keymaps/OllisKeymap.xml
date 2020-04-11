@@ -45,6 +45,10 @@
   <action id="CollapseTreeNode">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="Compare.SameVersion">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
@@ -67,6 +71,7 @@
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine" />
+  <action id="EditorDuplicate" />
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorScrollDown" />
