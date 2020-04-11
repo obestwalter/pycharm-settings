@@ -42,22 +42,30 @@
   <action id="CollapseTreeNode">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="Console.Execute.Multiline" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="DatabaseView.CopyTable" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="DirDiffMenu.EnableNotEqual">
     <keyboard-shortcut first-keystroke="shift ctrl 0" />
   </action>
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DockPinnedMode">
     <keyboard-shortcut first-keystroke="alt f12" />
   </action>
+  <action id="EditorChooseLookupItemCompleteStatement" />
+  <action id="EditorCompleteStatement" />
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
+  <action id="EditorSplitLine" />
   <action id="EditorUnSelectWord" />
   <action id="ExpressionTypeInfo" />
   <action id="FindNext">
@@ -89,6 +97,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
   <action id="IntroduceVariable" />
+  <action id="JupyterRunCellAction" />
   <action id="JupyterSelectCellAboveAction" />
   <action id="JupyterSelectCellBelowAction" />
   <action id="MethodDown">
@@ -121,6 +130,7 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="PreviousTab" />
+  <action id="PyExecuteCellAction" />
   <action id="QuickChangeScheme">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
@@ -128,6 +138,9 @@
   <action id="ReformatCode" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -150,6 +163,7 @@
   <action id="VenvConfigPlugin.com.github.nokia.ConfigureModulePythonVenv">
     <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
+  <action id="ViewSource" />
   <action id="WindowMode">
     <keyboard-shortcut first-keystroke="shift alt f12" />
   </action>
