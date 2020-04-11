@@ -174,13 +174,7 @@
   <action id="WindowMode">
     <keyboard-shortcut first-keystroke="shift alt f12" />
   </action>
-  <action id="tasks.close">
-    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl c" />
-  </action>
-  <action id="tasks.goto">
-    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl o" />
-  </action>
-  <action id="tasks.switch">
-    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl s" />
-  </action>
+  <action id="tasks.close" />
+  <action id="tasks.goto" />
+  <action id="tasks.switch" />
 </keymap>

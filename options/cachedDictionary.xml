@@ -18,6 +18,8 @@
       <w>bitbucket</w>
       <w>boto</w>
       <w>bugfix</w>
+      <w>caplog</w>
+      <w>cgroup</w>
       <w>cids</w>
       <w>clouddata</w>
       <w>cloudformation</w>
@@ -38,6 +40,8 @@
       <w>envsitepackagesdir</w>
       <w>excepthook</w>
       <w>filepath</w>
+      <w>filesize</w>
+      <w>finishdate</w>
       <w>firstparty</w>
       <w>fqdn</w>
       <w>hacky</w>
@@ -49,6 +53,7 @@
       <w>hlogs</w>
       <w>hypervisor</w>
       <w>idontexist</w>
+      <w>infos</w>
       <w>isort</w>
       <w>jetbrains</w>
       <w>junitxml</w>
@@ -57,6 +62,7 @@
       <w>localdev</w>
       <w>localfolder</w>
       <w>logstash</w>
+      <w>malware</w>
       <w>microvision</w>
       <w>monkeypatch</w>
       <w>nightvision</w>
@@ -71,10 +77,13 @@
       <w>posargs</w>
       <w>preproc</w>
       <w>preprocessing</w>
+      <w>proc</w>
       <w>procs</w>
       <w>psutil</w>
       <w>pypi</w>
       <w>pytest</w>
+      <w>rabbitmq</w>
+      <w>rabbitmqctl</w>
       <w>recommonmark</w>
       <w>runenv</w>
       <w>scipy</w>
@@ -82,6 +91,7 @@
       <w>setenv</w>
       <w>sklearn</w>
       <w>sourceable</w>
+      <w>startdate</w>
       <w>starttime</w>
       <w>subfolder</w>
       <w>sudoers</w>
@@ -95,6 +105,7 @@
       <w>usedevelop</w>
       <w>venv</w>
       <w>versioneer</w>
+      <w>vhost</w>
       <w>workdir</w>
     </words>
   </component>
