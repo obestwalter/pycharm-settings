@@ -5,6 +5,7 @@
       <w>airskip</w>
       <w>arcc</w>
       <w>artifactory</w>
+      <w>asctime</w>
       <w>autobuild</w>
       <w>autodeployment</w>
       <w>automagically</w>
@@ -17,16 +18,19 @@
       <w>boto</w>
       <w>cloudformation</w>
       <w>cpuset</w>
+      <w>dacq</w>
       <w>dataroot</w>
       <w>deployable</w>
       <w>deployer</w>
       <w>devbox</w>
+      <w>devstack</w>
       <w>distdir</w>
       <w>envdir</w>
       <w>envsitepackagesdir</w>
       <w>firstparty</w>
       <w>fqdn</w>
       <w>hacky</w>
+      <w>heurlogs</w>
       <w>hypervisor</w>
       <w>isort</w>
       <w>jetbrains</w>
@@ -38,10 +42,14 @@
       <w>nightvision</w>
       <w>nopasswd</w>
       <w>obestwalter</w>
+      <w>oldpwd</w>
+      <w>onedb</w>
       <w>parametrizing</w>
       <w>passenv</w>
       <w>posargs</w>
+      <w>preproc</w>
       <w>procs</w>
+      <w>psutil</w>
       <w>pypi</w>
       <w>pytest</w>
       <w>recommonmark</w>
