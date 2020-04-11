@@ -5,7 +5,10 @@
         <abbreviation name="tsc" />
       </action>
       <action id="Vcs.UpdateProject">
-        <abbreviation name="gp" />
+        <abbreviation name="git pull" />
+      </action>
+      <action id="Vcs.Push">
+        <abbreviation name="git push" />
       </action>
       <action id="tasks.switch">
         <abbreviation name="tss" />
