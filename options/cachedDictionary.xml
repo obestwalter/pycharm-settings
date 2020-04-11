@@ -12,25 +12,36 @@
       <w>avheur</w>
       <w>avira</w>
       <w>basepython</w>
+      <w>basetime</w>
       <w>bestwalter</w>
       <w>bitarray</w>
       <w>bitbucket</w>
       <w>boto</w>
+      <w>cids</w>
+      <w>clouddata</w>
       <w>cloudformation</w>
       <w>cpuset</w>
       <w>dacq</w>
       <w>dataroot</w>
+      <w>debian</w>
       <w>deployable</w>
       <w>deployer</w>
       <w>devbox</w>
       <w>devstack</w>
       <w>distdir</w>
+      <w>dont</w>
       <w>envdir</w>
       <w>envsitepackagesdir</w>
+      <w>filepath</w>
       <w>firstparty</w>
       <w>fqdn</w>
       <w>hacky</w>
+      <w>heur</w>
+      <w>heurids</w>
+      <w>heurlog</w>
       <w>heurlogs</w>
+      <w>hlog</w>
+      <w>hlogs</w>
       <w>hypervisor</w>
       <w>isort</w>
       <w>jetbrains</w>
@@ -39,6 +50,7 @@
       <w>localdev</w>
       <w>localfolder</w>
       <w>logstash</w>
+      <w>microvision</w>
       <w>nightvision</w>
       <w>nopasswd</w>
       <w>obestwalter</w>
@@ -48,6 +60,7 @@
       <w>passenv</w>
       <w>posargs</w>
       <w>preproc</w>
+      <w>preprocessing</w>
       <w>procs</w>
       <w>psutil</w>
       <w>pypi</w>
@@ -59,12 +72,14 @@
       <w>setenv</w>
       <w>sklearn</w>
       <w>sourceable</w>
+      <w>starttime</w>
       <w>subfolder</w>
       <w>sudoers</w>
       <w>testenv</w>
       <w>thirdparty</w>
       <w>toxinidir</w>
       <w>toxworkdir</w>
+      <w>tstart</w>
       <w>usedevelop</w>
       <w>venv</w>
       <w>workdir</w>
