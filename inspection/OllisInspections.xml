@@ -186,6 +186,16 @@
   <inspection_tool class="PyArgumentEqualDefaultInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="PyAttributeOutsideInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PyAugmentAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredPackages">
+      <value>
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="avira-ai-tools" />
+        </list>
+      </value>
+    </option>
+  </inspection_tool>
   <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="ignoredErrors">
       <list>
@@ -194,6 +204,7 @@
     </option>
   </inspection_tool>
   <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyramidSetupInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="Query_bound_parameters" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="Query_index_required" enabled="false" level="WARNING" enabled_by_default="false" />
