@@ -1,0 +1,15 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="tasks.close">
+        <abbreviation name="tsc" />
+      </action>
+      <action id="tasks.switch">
+        <abbreviation name="tss" />
+      </action>
+      <action id="tasks.goto">
+        <abbreviation name="tso" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
