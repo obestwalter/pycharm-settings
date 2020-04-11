@@ -12,3 +12,5 @@ options/KeyPromoterXStatistic.xml
 options/KeyPromoterXSettings.xml
 tasks/*
 terminal/history/*
+options/updates.xml
+options/packages.xml

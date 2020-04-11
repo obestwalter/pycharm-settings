@@ -35,11 +35,13 @@
       <w>localdev</w>
       <w>localfolder</w>
       <w>logstash</w>
+      <w>nightvision</w>
       <w>nopasswd</w>
       <w>obestwalter</w>
       <w>parametrizing</w>
       <w>passenv</w>
       <w>posargs</w>
+      <w>procs</w>
       <w>pypi</w>
       <w>pytest</w>
       <w>recommonmark</w>
