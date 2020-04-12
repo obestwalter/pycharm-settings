@@ -36,9 +36,11 @@
       <w>bitarray</w>
       <w>bitbucket</w>
       <w>boto</w>
+      <w>botocore</w>
       <w>bugfix</w>
       <w>caplog</w>
       <w>cgroup</w>
+      <w>chown</w>
       <w>cids</w>
       <w>clouddata</w>
       <w>cloudformation</w>
