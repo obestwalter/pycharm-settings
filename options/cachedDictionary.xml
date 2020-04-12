@@ -42,9 +42,11 @@
       <w>cids</w>
       <w>clouddata</w>
       <w>cloudformation</w>
+      <w>clus</w>
       <w>cpuset</w>
       <w>crashdump</w>
       <w>dacq</w>
+      <w>datafilenumbers</w>
       <w>dataroot</w>
       <w>dbapi</w>
       <w>dbase</w>
@@ -56,6 +58,7 @@
       <w>devbox</w>
       <w>devstack</w>
       <w>distdir</w>
+      <w>doctype</w>
       <w>dont</w>
       <w>dontcare</w>
       <w>envdir</w>
@@ -65,9 +68,11 @@
       <w>filesize</w>
       <w>finishdate</w>
       <w>firstparty</w>
+      <w>flagset</w>
       <w>fqdn</w>
       <w>hacky</w>
       <w>heur</w>
+      <w>heurflags</w>
       <w>heurids</w>
       <w>heurlog</w>
       <w>heurlogs</w>
@@ -77,6 +82,7 @@
       <w>idontexist</w>
       <w>infos</w>
       <w>isort</w>
+      <w>iters</w>
       <w>jetbrains</w>
       <w>junitxml</w>
       <w>kubepod</w>
