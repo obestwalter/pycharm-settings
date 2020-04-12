@@ -9,6 +9,7 @@
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateProjectToolWindow" />
   <action id="ActivateServicesToolWindow" />
   <action id="ActivateStructureToolWindow" />
@@ -92,7 +93,7 @@
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
   <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
@@ -108,6 +109,9 @@
     <keyboard-shortcut first-keystroke="ctrl plus" />
   </action>
   <action id="ExpressionTypeInfo" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
@@ -195,16 +199,12 @@
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
-  <action id="NextOccurence">
-    <keyboard-shortcut first-keystroke="ctrl down" />
-  </action>
+  <action id="NextOccurence" />
   <action id="NextTab" />
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
-  <action id="PreviousOccurence">
-    <keyboard-shortcut first-keystroke="ctrl up" />
-  </action>
+  <action id="PreviousOccurence" />
   <action id="PreviousTab" />
   <action id="ProjectRefreshAction" />
   <action id="PyExecuteCellAction" />
@@ -236,6 +236,9 @@
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt y" />
   </action>
   <action id="ShowReformatFileDialog" />
   <action id="Switcher" />
