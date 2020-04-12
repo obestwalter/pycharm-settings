@@ -5,9 +5,18 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ActivateEventLogToolWindow">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateServicesToolWindow" />
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTODOToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="ActivateVersionControlToolWindow" />
   <action id="AutoIndentLines" />
   <action id="BLACKReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
@@ -18,10 +27,8 @@
   <action id="CheckinFiles">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
-  <action id="CloseActiveTab">
-    <keyboard-shortcut first-keystroke="ctrl w" />
-  </action>
-  <action id="CloseAllEditorsButActive">
+  <action id="CloseActiveTab" />
+  <action id="CloseAllUnmodifiedEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="CloseContent">
@@ -63,6 +70,7 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="Diff.FocusOppositePane" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="DirDiffMenu.EnableNotEqual">
@@ -93,6 +101,12 @@
   <action id="EditorSelectWord" />
   <action id="EditorSplitLine" />
   <action id="EditorUnSelectWord" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl plus" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="ctrl plus" />
+  </action>
   <action id="ExpressionTypeInfo" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
@@ -108,6 +122,36 @@
   </action>
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="Go To Tab #1">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="Go To Tab #10">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="Go To Tab #2">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="Go To Tab #3">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="Go To Tab #4">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="Go To Tab #5">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="Go To Tab #6">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
+  <action id="Go To Tab #7">
+    <keyboard-shortcut first-keystroke="alt 7" />
+  </action>
+  <action id="Go To Tab #8">
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="Go To Tab #9">
+    <keyboard-shortcut first-keystroke="alt 9" />
   </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
@@ -168,6 +212,18 @@
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="QuickEvaluateExpression" />
+  <action id="RecentChanges">
+    <keyboard-shortcut first-keystroke="shift alt c" />
+    <keyboard-shortcut first-keystroke="ctrl alt tab" />
+  </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="RecentLocations">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
   <action id="ReformatCode" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
@@ -182,6 +238,15 @@
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
   <action id="ShowReformatFileDialog" />
+  <action id="Switcher" />
+  <action id="SwitcherIterateItems">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="SwitcherRecentEditedChangedToggleCheckBox">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
