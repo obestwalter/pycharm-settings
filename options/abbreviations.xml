@@ -1,6 +1,9 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
+      <action id="tasks.and.contexts">
+        <abbreviation name="tsp" />
+      </action>
       <action id="tasks.close">
         <abbreviation name="tsc" />
       </action>
