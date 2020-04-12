@@ -41,7 +41,9 @@
   <action id="CheckinFiles">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
-  <action id="CloseActiveTab" />
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
   <action id="CloseAllUnmodifiedEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
@@ -171,9 +173,7 @@
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
-  <action id="GotoSymbol">
-    <keyboard-shortcut first-keystroke="alt o" />
-  </action>
+  <action id="GotoSymbol" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="InspectCode">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
