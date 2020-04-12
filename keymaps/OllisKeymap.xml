@@ -5,19 +5,32 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
-  <action id="ActivateFindToolWindow" />
-  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="ActivateServicesToolWindow" />
-  <action id="ActivateStructureToolWindow" />
-  <action id="ActivateTODOToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
-  <action id="ActivateVersionControlToolWindow" />
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
   <action id="AutoIndentLines" />
   <action id="BLACKReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
@@ -130,9 +143,6 @@
   <action id="Go To Tab #1">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
-  <action id="Go To Tab #10">
-    <keyboard-shortcut first-keystroke="alt 0" />
-  </action>
   <action id="Go To Tab #2">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
@@ -150,12 +160,6 @@
   </action>
   <action id="Go To Tab #7">
     <keyboard-shortcut first-keystroke="alt 7" />
-  </action>
-  <action id="Go To Tab #8">
-    <keyboard-shortcut first-keystroke="alt 8" />
-  </action>
-  <action id="Go To Tab #9">
-    <keyboard-shortcut first-keystroke="alt 9" />
   </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
