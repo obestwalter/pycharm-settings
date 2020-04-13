@@ -1,0 +1,6 @@
+<application>
+  <component name="DockerTreeFilter">
+    <option name="myStoppedContainersHidden" value="true" />
+    <option name="myUntaggedImagesHidden" value="true" />
+  </component>
+</application>
