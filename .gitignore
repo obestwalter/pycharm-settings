@@ -19,3 +19,4 @@ tasks/*
 terminal/history/*
 workspace/*
 options/laf.xml
+event-log-whitelist/fus/white-list.json
