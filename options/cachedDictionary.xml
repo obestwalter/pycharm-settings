@@ -26,6 +26,7 @@
       <w>arcc</w>
       <w>artifactory</w>
       <w>asctime</w>
+      <w>authkeys</w>
       <w>autobuild</w>
       <w>autodeploy</w>
       <w>autodeployment</w>
@@ -65,6 +66,7 @@
       <w>doctype</w>
       <w>dont</w>
       <w>dontcare</w>
+      <w>entrypoints</w>
       <w>envdir</w>
       <w>envsitepackagesdir</w>
       <w>excepthook</w>
