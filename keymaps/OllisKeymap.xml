@@ -22,9 +22,7 @@
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="ActivateServicesToolWindow" />
-  <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="alt s" />
-  </action>
+  <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
@@ -34,6 +32,7 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="AddToFavoritesPopup" />
   <action id="AutoIndentLines" />
   <action id="BLACKReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
@@ -113,6 +112,13 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorFocusGutter">
+    <keyboard-shortcut first-keystroke="shift ctrl escape" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorScrollDown" />
@@ -124,10 +130,16 @@
     <keyboard-shortcut first-keystroke="ctrl plus" />
   </action>
   <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl plus" />
+  </action>
+  <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="ctrl plus" />
   </action>
   <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
@@ -167,6 +179,7 @@
   <action id="Go To Tab #7">
     <keyboard-shortcut first-keystroke="alt 7" />
   </action>
+  <action id="GotoFile" />
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
   </action>
@@ -176,12 +189,17 @@
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
-  <action id="GotoSymbol" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
   <action id="Graph.ApplyCurrentLayout" />
   <action id="InspectCode">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
   <action id="IntroduceVariable" />
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="ctrl escape" />
+  </action>
   <action id="JupyterRunCellAction" />
   <action id="JupyterSelectCellAboveAction" />
   <action id="JupyterSelectCellBelowAction" />
@@ -192,12 +210,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MethodUp">
-    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
   <action id="Move">
     <keyboard-shortcut first-keystroke="shift f2" />
@@ -274,6 +292,7 @@
   <action id="WindowMode">
     <keyboard-shortcut first-keystroke="shift alt f12" />
   </action>
+  <action id="context.save" />
   <action id="tasks.close" />
   <action id="tasks.goto" />
   <action id="tasks.switch" />
