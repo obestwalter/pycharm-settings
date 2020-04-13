@@ -42,6 +42,7 @@
       <w>bitbucket</w>
       <w>boto</w>
       <w>botocore</w>
+      <w>buehler</w>
       <w>bugfix</w>
       <w>buildargs</w>
       <w>caplog</w>
@@ -96,6 +97,7 @@
       <w>iters</w>
       <w>jetbrains</w>
       <w>junitxml</w>
+      <w>karabeyli</w>
       <w>kubepod</w>
       <w>levelname</w>
       <w>libnotify</w>
