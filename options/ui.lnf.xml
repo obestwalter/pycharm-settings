@@ -1,15 +1,18 @@
 <application>
   <component name="UISettings">
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
     <option name="ALLOW_MERGE_BUTTONS" value="false" />
     <option name="COLOR_BLINDNESS" value="deuteranopia" />
     <option name="EDITOR_TAB_LIMIT" value="7" />
     <option name="FULL_PATHS_IN_TITLE_BAR" value="true" />
+    <option name="HIDE_TABS_IF_NEED" value="false" />
     <option name="HIDE_TOOL_STRIPES" value="true" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
+    <option name="OPEN_TABS_AT_THE_END" value="true" />
     <option name="RECENT_FILES_LIMIT" value="23" />
     <option name="RECENT_LOCATIONS_LIMIT" value="23" />
+    <option name="REUSE_NOT_MODIFIED_TABS" value="true" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="SHOW_INPLACE_COMMENTS" value="true" />
-    <option name="SORT_TABS_ALPHABETICALLY" value="true" />
   </component>
 </application>
