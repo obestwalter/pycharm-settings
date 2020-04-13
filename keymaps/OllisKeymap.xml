@@ -21,7 +21,9 @@
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
-  <action id="ActivateServicesToolWindow" />
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="alt t" />
@@ -40,6 +42,7 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinFiles">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
@@ -155,6 +158,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -196,6 +202,7 @@
   <action id="InspectCode">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
+  <action id="IntroduceParameter" />
   <action id="IntroduceVariable" />
   <action id="JumpToLastWindow">
     <keyboard-shortcut first-keystroke="ctrl escape" />
@@ -264,6 +271,7 @@
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
@@ -276,6 +284,7 @@
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
+  <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark0" />
   <action id="ToggleBookmark7" />
   <action id="Vcs.Push">
