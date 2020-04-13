@@ -18,6 +18,9 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="ActivateServicesToolWindow" />
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt s" />
@@ -196,6 +199,9 @@
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="shift f2" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
@@ -220,17 +226,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="QuickEvaluateExpression" />
-  <action id="RecentChanges">
-    <keyboard-shortcut first-keystroke="shift alt c" />
-    <keyboard-shortcut first-keystroke="ctrl alt tab" />
-  </action>
+  <action id="RecentChanges" />
   <action id="RecentFiles">
-    <keyboard-shortcut first-keystroke="ctrl e" />
-    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="RecentLocations">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="ReformatCode" />
   <action id="RenameElement">
@@ -251,13 +252,9 @@
   <action id="ShowReformatFileDialog" />
   <action id="Switcher" />
   <action id="SwitcherIterateItems">
-    <keyboard-shortcut first-keystroke="ctrl e" />
-    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
-  <action id="SwitcherRecentEditedChangedToggleCheckBox">
-    <keyboard-shortcut first-keystroke="ctrl e" />
-    <keyboard-shortcut first-keystroke="ctrl tab" />
-  </action>
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>

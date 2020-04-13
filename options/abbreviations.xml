@@ -16,8 +16,14 @@
       <action id="tasks.goto">
         <abbreviation name="tso" />
       </action>
+      <action id="LocalHistory.ShowHistory">
+        <abbreviation name="local history" />
+      </action>
       <action id="Vcs.Push">
         <abbreviation name="git push" />
+      </action>
+      <action id="Vcs.ShowTabbedFileHistory">
+        <abbreviation name="git log" />
       </action>
       <action id="Vcs.UpdateProject">
         <abbreviation name="git pull" />
