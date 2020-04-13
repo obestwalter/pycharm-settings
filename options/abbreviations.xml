@@ -17,7 +17,7 @@
         <abbreviation name="tso" />
       </action>
       <action id="LocalHistory.ShowHistory">
-        <abbreviation name="local history" />
+        <abbreviation name="hist" />
       </action>
       <action id="Vcs.Push">
         <abbreviation name="git push" />
