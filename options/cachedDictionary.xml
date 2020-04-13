@@ -10,6 +10,7 @@
       <w>aavt</w>
       <w>addopts</w>
       <w>addr</w>
+      <w>addrs</w>
       <w>aeheur</w>
       <w>agdd</w>
       <w>agdr</w>
@@ -27,6 +28,7 @@
       <w>artifactory</w>
       <w>asctime</w>
       <w>authkeys</w>
+      <w>auths</w>
       <w>autobuild</w>
       <w>autodeploy</w>
       <w>autodeployment</w>
@@ -41,7 +43,9 @@
       <w>boto</w>
       <w>botocore</w>
       <w>bugfix</w>
+      <w>buildargs</w>
       <w>caplog</w>
+      <w>capsys</w>
       <w>cgroup</w>
       <w>chown</w>
       <w>cids</w>
@@ -70,6 +74,7 @@
       <w>envdir</w>
       <w>envsitepackagesdir</w>
       <w>excepthook</w>
+      <w>execv</w>
       <w>filepath</w>
       <w>filesize</w>
       <w>finishdate</w>
@@ -152,6 +157,7 @@
       <w>startdate</w>
       <w>starttime</w>
       <w>subfolder</w>
+      <w>subparser</w>
       <w>subshell</w>
       <w>subsubfolder</w>
       <w>sudoers</w>
