@@ -12,16 +12,11 @@
       <ViewImpl>
         <option name="ID" value="ConsoleContent" />
         <option name="placeInGrid" value="bottom" />
-        <option name="tabIndex" value="1" />
       </ViewImpl>
       <TabImpl>
+        <option name="bottomProportion" value="0.3503326" />
         <option name="displayName" value="Debugger" />
         <option name="leftProportion" value="0.24949495" />
-      </TabImpl>
-      <TabImpl>
-        <option name="bottomProportion" value="0.0" />
-        <option name="defaultIndex" value="1" />
-        <option name="index" value="1" />
       </TabImpl>
     </runner>
     <runner id="JavaRunner">

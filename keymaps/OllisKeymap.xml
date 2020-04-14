@@ -49,6 +49,9 @@
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" />
+  </action>
   <action id="CloseAllUnmodifiedEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
@@ -104,6 +107,7 @@
   <action id="DockPinnedMode">
     <keyboard-shortcut first-keystroke="alt f12" />
   </action>
+  <action id="DumpLookupElementWeights" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -276,6 +280,9 @@
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
   <action id="ShowReformatFileDialog" />
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
   <action id="Switcher" />
   <action id="SwitcherIterateItems">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />

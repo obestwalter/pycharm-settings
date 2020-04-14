@@ -154,6 +154,7 @@
       <w>scipy</w>
       <w>semac</w>
       <w>setenv</w>
+      <w>shortname</w>
       <w>sklearn</w>
       <w>sourceable</w>
       <w>startdate</w>
@@ -181,6 +182,7 @@
       <w>virtualenvwrapper</w>
       <w>workdir</w>
       <w>workingdir</w>
+      <w>yolo</w>
       <w>zshrc</w>
     </words>
   </component>
