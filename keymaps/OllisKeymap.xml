@@ -65,17 +65,13 @@
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
-  <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="ctrl minus" />
-  </action>
-  <action id="CollapseRegionRecursively">
-    <keyboard-shortcut first-keystroke="ctrl alt minus" />
-  </action>
+  <action id="CollapseRegion" />
+  <action id="CollapseRegionRecursively" />
   <action id="CollapseTreeNode">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
@@ -95,6 +91,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
   <action id="Diff.FocusOppositePane" />
+  <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Diff.ShowDiff">
@@ -132,16 +129,16 @@
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
   <action id="EditorSplitLine" />
+  <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord" />
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl plus" />
   </action>
   <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="shift ctrl plus" />
-  </action>
-  <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="ctrl plus" />
   </action>
+  <action id="ExpandRegion" />
+  <action id="ExpandRegionRecursively" />
   <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
   <action id="FileStructurePopup">
@@ -243,12 +240,16 @@
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="NextOccurence" />
-  <action id="NextTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl circumflex" />
+  </action>
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="PreviousOccurence" />
-  <action id="PreviousTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl circumflex" />
+  </action>
   <action id="ProjectRefreshAction" />
   <action id="PyExecuteCellAction" />
   <action id="QuickChangeScheme">
@@ -257,10 +258,10 @@
   <action id="QuickEvaluateExpression" />
   <action id="RecentChanges" />
   <action id="RecentFiles">
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="RecentLocations">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="ReformatCode" />
   <action id="RenameElement">
@@ -276,6 +277,10 @@
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
   <action id="ServiceView.GroupByServiceGroups" />
+  <action id="Shelve.KeymapGroup">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
@@ -283,13 +288,22 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
-  <action id="Switcher" />
-  <action id="SwitcherIterateItems">
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
-  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="TabList">
+    <keyboard-shortcut first-keystroke="altGraph circumflex" />
+  </action>
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl f1" />
+  </action>
+  <action id="Terminal.RenameSession">
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark0" />
