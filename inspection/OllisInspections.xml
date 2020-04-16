@@ -226,7 +226,7 @@
   <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
     <option name="ignoredPackages">
       <value>
-        <list size="15">
+        <list size="16">
           <item index="0" class="java.lang.String" itemvalue="avira-ai-tools" />
           <item index="1" class="java.lang.String" itemvalue="avira-ai-vision" />
           <item index="2" class="java.lang.String" itemvalue="avira-ai-algorithms" />
@@ -242,6 +242,7 @@
           <item index="12" class="java.lang.String" itemvalue="yaml" />
           <item index="13" class="java.lang.String" itemvalue="tenacity" />
           <item index="14" class="java.lang.String" itemvalue="miniml" />
+          <item index="15" class="java.lang.String" itemvalue="urllib3" />
         </list>
       </value>
     </option>
