@@ -217,6 +217,9 @@
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
+  <action id="MaximizeToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt plus" />
+  </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
@@ -224,6 +227,9 @@
   <action id="MethodOverloadSwitchUp" />
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="MinimizeCurrentWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt minus" />
   </action>
   <action id="Move">
     <keyboard-shortcut first-keystroke="shift f2" />
@@ -302,9 +308,6 @@
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
-  <action id="Terminal.RenameSession">
-    <keyboard-shortcut first-keystroke="f2" />
-  </action>
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark0" />
   <action id="ToggleBookmark7" />
@@ -313,6 +316,9 @@
   </action>
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="VenvConfigPlugin.com.github.nokia.ConfigureModulePythonVenv">
