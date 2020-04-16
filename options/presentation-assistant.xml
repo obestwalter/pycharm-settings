@@ -1,0 +1,11 @@
+<application>
+  <component name="PresentationAssistant">
+    <option name="alternativeKeymap" />
+    <option name="mainKeymap">
+      <KeymapDescription>
+        <option name="name" value="OllisKeymap" />
+      </KeymapDescription>
+    </option>
+    <option name="verticalAlignment" value="TOP" />
+  </component>
+</application>
