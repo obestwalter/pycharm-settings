@@ -58,6 +58,7 @@
       <w>conftest</w>
       <w>cpuset</w>
       <w>crashdump</w>
+      <w>cssh</w>
       <w>curpart</w>
       <w>dacq</w>
       <w>datafilenumbers</w>
@@ -102,6 +103,7 @@
       <w>heurlogs</w>
       <w>hlog</w>
       <w>hlogs</w>
+      <w>howto</w>
       <w>hypervisor</w>
       <w>idontexist</w>
       <w>infos</w>
@@ -149,6 +151,7 @@
       <w>passwd</w>
       <w>personalizable</w>
       <w>pickleable</w>
+      <w>pkgs</w>
       <w>posargs</w>
       <w>postparams</w>
       <w>preexec</w>
@@ -181,6 +184,7 @@
       <w>sourceables</w>
       <w>startdate</w>
       <w>starttime</w>
+      <w>storages</w>
       <w>subfolder</w>
       <w>subparser</w>
       <w>subshell</w>
@@ -189,6 +193,7 @@
       <w>sudoers</w>
       <w>sysinfo</w>
       <w>systemd</w>
+      <w>testbase</w>
       <w>testenv</w>
       <w>tettnang</w>
       <w>thirdparty</w>
