@@ -126,6 +126,7 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorScrollDown" />
+  <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
   <action id="EditorSplitLine" />
@@ -141,6 +142,9 @@
   <action id="ExpandRegionRecursively" />
   <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="alt s" />
@@ -189,6 +193,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl a" />
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
@@ -339,6 +345,9 @@
   <action id="ViewSource" />
   <action id="WindowMode">
     <keyboard-shortcut first-keystroke="shift alt f12" />
+  </action>
+  <action id="com.buckstabue.stickynotes.idea.createeditstickynote.CreateStickyNoteAction">
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="context.save" />
   <action id="tasks.close" />
