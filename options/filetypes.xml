@@ -6,6 +6,7 @@
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping pattern=".zshrc" type="Shell Script" />
       <mapping pattern=".bashrc" type="Shell Script" />
+      <mapping pattern="pydecruft" type="Shell Script" />
     </extensionMap>
   </component>
 </application>
