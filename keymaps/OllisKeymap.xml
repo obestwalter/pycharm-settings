@@ -24,7 +24,9 @@
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
-  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
@@ -186,9 +188,6 @@
   <action id="Go To Tab #6">
     <keyboard-shortcut first-keystroke="alt 6" />
   </action>
-  <action id="Go To Tab #7">
-    <keyboard-shortcut first-keystroke="alt 7" />
-  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
     <keyboard-shortcut first-keystroke="shift ctrl p" />
@@ -204,9 +203,7 @@
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
-  <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="ctrl up" />
-  </action>
+  <action id="GotoPreviousError" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
@@ -256,17 +253,20 @@
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
-  <action id="NextOccurence" />
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl circumflex" />
   </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
-  <action id="PreviousDiff">
+  <action id="PreviousDiff" />
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="ctrl down" />
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
-  <action id="PreviousOccurence" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl circumflex" />
   </action>
@@ -278,6 +278,7 @@
   <action id="QuickEvaluateExpression" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button3" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="RecentChanges" />
   <action id="RecentFiles">
@@ -327,6 +328,9 @@
   </action>
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl f1" />
+  </action>
+  <action id="Terminal.RenameSession">
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark0" />
