@@ -14,9 +14,9 @@
         <option name="placeInGrid" value="bottom" />
       </ViewImpl>
       <TabImpl>
-        <option name="bottomProportion" value="0.3503326" />
+        <option name="bottomProportion" value="0.5609756" />
         <option name="displayName" value="Debugger" />
-        <option name="leftProportion" value="0.24949495" />
+        <option name="leftProportion" value="0.5495868" />
       </TabImpl>
     </runner>
     <runner id="JavaRunner">
