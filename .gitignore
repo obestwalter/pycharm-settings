@@ -4,6 +4,7 @@ options/baseRefactoring.xml
 options/colors.scheme.xml
 options/find.xml
 options/images.support.xml
+options/jdk.table.xml
 options/KeyPromoterXSettings.xml
 options/KeyPromoterXStatistic.xml
 options/markdown.xml
