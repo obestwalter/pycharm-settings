@@ -3,6 +3,7 @@
     <option name="autoSaveIfInactive" value="true" />
     <option name="confirmExit" value="false" />
     <option name="inactiveTimeout" value="180" />
+    <option name="showTipsOnStartup" value="false" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
