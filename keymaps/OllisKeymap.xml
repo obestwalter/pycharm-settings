@@ -295,7 +295,6 @@
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="PreviousOccurence">
-    <keyboard-shortcut first-keystroke="ctrl down" />
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="PreviousTab">
