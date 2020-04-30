@@ -1,11 +1,14 @@
 <application>
   <component name="PresentationAssistant">
     <option name="alternativeKeymap" />
+    <option name="fontSize" value="26" />
+    <option name="hideDelay" value="10000" />
     <option name="mainKeymap">
       <KeymapDescription>
-        <option name="name" value="OllisKeymap" />
+        <option name="displayText" value="[Windows]" />
+        <option name="name" value="$default" />
       </KeymapDescription>
     </option>
-    <option name="verticalAlignment" value="TOP" />
+    <option name="margin" value="40" />
   </component>
 </application>
