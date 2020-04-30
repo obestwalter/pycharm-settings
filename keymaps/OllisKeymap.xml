@@ -24,6 +24,9 @@
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
+  <action id="ActivateStickyNotesToolWindow">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
@@ -43,6 +46,9 @@
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="ctrl alt 4" />
   </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinFiles">
@@ -72,7 +78,9 @@
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
-  <action id="CollapseRegion" />
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
   <action id="CollapseRegionRecursively" />
   <action id="CollapseTreeNode">
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -95,7 +103,13 @@
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.NextChange" />
+  <action id="Diff.NextConflict">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
   <action id="Diff.PrevChange" />
+  <action id="Diff.PreviousConflict">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
@@ -140,7 +154,9 @@
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="ctrl plus" />
   </action>
-  <action id="ExpandRegion" />
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="shift ctrl plus" />
+  </action>
   <action id="ExpandRegionRecursively" />
   <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
@@ -159,6 +175,9 @@
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift f3" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt right" />
@@ -208,6 +227,7 @@
     <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
   <action id="Graph.ApplyCurrentLayout" />
+  <action id="Images.EditExternally" />
   <action id="InspectCode">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
@@ -250,11 +270,20 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
+  </action>
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl circumflex" />
@@ -262,7 +291,9 @@
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
-  <action id="PreviousDiff" />
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
   <action id="PreviousOccurence">
     <keyboard-shortcut first-keystroke="ctrl down" />
     <keyboard-shortcut first-keystroke="ctrl up" />
@@ -317,6 +348,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShowFilePath" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
@@ -324,6 +356,17 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
+  <action id="ShowSettingsAndFindUsages" />
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift ctrl alt 3" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl alt 2" />
+  </action>
+  <action id="SwitchCoverage" />
   <action id="Switcher" />
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox">
@@ -335,6 +378,34 @@
   <action id="TabList">
     <keyboard-shortcut first-keystroke="altGraph circumflex" />
   </action>
+  <action id="TabShiftActions.MoveFocusDown" />
+  <action id="TabShiftActions.MoveFocusLeft" />
+  <action id="TabShiftActions.MoveFocusRight" />
+  <action id="TabShiftActions.MoveFocusUp" />
+  <action id="TabShiftActions.ShiftDown" />
+  <action id="TabShiftActions.ShiftLeft" />
+  <action id="TabShiftActions.ShiftRight" />
+  <action id="TabShiftActions.ShiftUp" />
+  <action id="TabShiftActions.StretchDown">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="down" />
+  </action>
+  <action id="TabShiftActions.StretchLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="left" />
+  </action>
+  <action id="TabShiftActions.StretchRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="right" />
+  </action>
+  <action id="TabShiftActions.StretchUp">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="up" />
+  </action>
+  <action id="TabShiftActions.ToggleMaximizeRestore">
+    <keyboard-shortcut first-keystroke="ctrl alt plus" />
+  </action>
+  <action id="Terminal.MoveToEditor">
+    <keyboard-shortcut first-keystroke="shift ctrl alt m" />
+  </action>
+  <action id="Terminal.MoveToolWindowTabLeft" />
+  <action id="Terminal.MoveToolWindowTabRight" />
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
@@ -344,6 +415,12 @@
   <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark0" />
   <action id="ToggleBookmark7" />
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="ctrl alt 5" />
+  </action>
+  <action id="UnsplitAll">
+    <keyboard-shortcut first-keystroke="ctrl alt 6" />
+  </action>
   <action id="Vcs.Push" />
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift f5" />
@@ -362,6 +439,7 @@
   <action id="WindowMode">
     <keyboard-shortcut first-keystroke="shift alt f12" />
   </action>
+  <action id="XDebugger.AttachToProcess" />
   <action id="com.buckstabue.stickynotes.idea.createeditstickynote.CreateStickyNoteAction">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
