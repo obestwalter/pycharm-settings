@@ -5,32 +5,30 @@
         <abbreviation name="fusett" />
       </action>
       <action id="Terminal.RenameSession" />
-      <action id="tasks.and.contexts">
-        <abbreviation name="tsp" />
-      </action>
       <action id="tasks.close">
         <abbreviation name="tsc" />
       </action>
-      <action id="Vcs.ShowTabbedFileHistory">
-        <abbreviation name="git log" />
+      <action id="Vcs.UpdateProject">
+        <abbreviation name="git pull" />
       </action>
       <action id="tasks.switch">
         <abbreviation name="tss" />
       </action>
-      <action id="CloseActiveTab">
-        <abbreviation name="ct" />
-      </action>
+      <action id="CloseActiveTab" />
       <action id="tasks.goto">
         <abbreviation name="tso" />
-      </action>
-      <action id="Vcs.Push">
-        <abbreviation name="git push" />
       </action>
       <action id="LocalHistory.ShowHistory">
         <abbreviation name="hist" />
       </action>
-      <action id="Vcs.UpdateProject">
-        <abbreviation name="git pull" />
+      <action id="Vcs.Push">
+        <abbreviation name="git push" />
+      </action>
+      <action id="Vcs.ShowTabbedFileHistory">
+        <abbreviation name="git log" />
+      </action>
+      <action id="tasks.and.contexts">
+        <abbreviation name="tsp" />
       </action>
     </abbreviations>
   </component>
