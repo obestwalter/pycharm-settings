@@ -17,6 +17,6 @@
     <option name="SHOW_INPLACE_COMMENTS" value="true" />
     <option name="SHOW_MAIN_MENU" value="false" />
     <option name="SHOW_NAVIGATION_BAR" value="false" />
-    <option name="SHOW_STATUS_BAR" value="false" />
+    <option name="showTreeIndentGuides" value="true" />
   </component>
 </application>
