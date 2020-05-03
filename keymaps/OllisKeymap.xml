@@ -55,7 +55,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
   <action id="CloseActiveTab">
-    <keyboard-shortcut first-keystroke="alt w" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" />
@@ -64,9 +64,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="ctrl w" />
-  </action>
-  <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="CollapseAll">
@@ -113,7 +110,7 @@
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
-  <action id="DirDiffMenu.EnableNotEqual">
+  <action id="DirDiffMenu.EnableNot   Equal">
     <keyboard-shortcut first-keystroke="shift ctrl 0" />
   </action>
   <action id="DirDiffMenu.SynchronizeDiff.All" />
@@ -144,10 +141,14 @@
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
-  <action id="EditorSelectWord" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
   <action id="EditorSplitLine" />
   <action id="EditorToggleCase" />
-  <action id="EditorUnSelectWord" />
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift alt w" />
+  </action>
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl plus" />
   </action>
@@ -177,7 +178,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="shift f3" />
+    <keyboard-shortcut first-keystroke="alt f3" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt right" />
@@ -185,7 +186,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
-  <action id="Git.Commit.And.Push.Executor" />
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -213,6 +216,10 @@
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
@@ -222,7 +229,9 @@
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
-  <action id="GotoPreviousError" />
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
@@ -239,9 +248,6 @@
   <action id="JupyterRunCellAction" />
   <action id="JupyterSelectCellAboveAction" />
   <action id="JupyterSelectCellBelowAction" />
-  <action id="Log.JumpToSource">
-    <keyboard-shortcut first-keystroke="f3" />
-  </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
@@ -276,6 +282,12 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl alt 2" />
   </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="shift f7" />
+  </action>
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
@@ -288,6 +300,10 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl circumflex" />
   </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="OverrideMethods" />
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
@@ -355,9 +371,11 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
-  <action id="ShowSettingsAndFindUsages" />
+  <action id="ShowSettingsAndFindUsages">
+    <keyboard-shortcut first-keystroke="shift alt f3" />
+  </action>
   <action id="ShowUsages">
-    <keyboard-shortcut first-keystroke="alt f3" />
+    <keyboard-shortcut first-keystroke="shift f3" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl alt 3" />
@@ -420,6 +438,7 @@
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="ctrl alt 6" />
   </action>
+  <action id="Vcs.EditSource" />
   <action id="Vcs.Push" />
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift f5" />
@@ -439,6 +458,7 @@
     <keyboard-shortcut first-keystroke="shift alt f12" />
   </action>
   <action id="XDebugger.AttachToProcess" />
+  <action id="XDebugger.JumpToSource" />
   <action id="com.buckstabue.stickynotes.idea.createeditstickynote.CreateStickyNoteAction">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
