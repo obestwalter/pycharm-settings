@@ -1,0 +1,7 @@
+<application>
+  <component name="AtomFileIconsConfig">
+    <option name="monochromeColor" value="546e7a" />
+    <option name="hideFileIcons" value="true" />
+    <option name="arrowsStyle" value="Darcula" />
+  </component>
+</application>
