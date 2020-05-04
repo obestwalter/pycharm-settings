@@ -23,7 +23,7 @@ Doing more things from the keyboard is in part independent from the concrete too
 
 ![(my german keyboard)](_img/my-german-keyboard.jpg)
 
-*(my german notebook keyboard (which I use most of the time)*
+*(my german notebook keyboard (which I use most of the time))*
 
 ## Activate Context Menu with the Keyboard
 
