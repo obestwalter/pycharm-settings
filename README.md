@@ -270,6 +270,8 @@ In project view on a folder action is specific to that folder:
 * activate "change font size with CTRL+[Mouse Wheel] - it really should be on by default
 * if your date format looks all wrong e.g. in commit view `Settings -> Date Format`: `YYYY-MM-dd` and use 24 hour time are objectively the only sane settings and should be the default anyway;)
 
-# Learned something? Tweet me your favorite: @obestwalter
+# Learned something? Tweet me your favorite
+
+*([my handle is @obestwalter](https://twitter.com/obestwalter))*
 
 I hope you get a few ideas about how to improve your workflow and make it more keyboard driven.
