@@ -103,7 +103,7 @@ One of my most used keyboard shortcuts in most apps that have tabs is **CTRL+TAB
 
 ## ALT+y -> Jump to Navigation Bar
 
-As I removed a lot of UI elements that, the navigation bar is also gone, but sometimes it is handy to:
+As I removed a lot of UI elements, the navigation bar is also gone, but sometimes it is handy to:
 * quickly see where I am or 
 * go somewhere relative to where I am now
 
