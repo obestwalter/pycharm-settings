@@ -37,13 +37,13 @@ to assign a (more convenient) keyboard shortcut to activate the context menu for
 ## Make use of Menu Mnemonics
 
 [Menu mnemonics](https://en.wikipedia.org/wiki/Mnemonics_(keyboard))
- are an idiom used by many graphical user interfaces. If a program uses mnemonics you will see certain characters in menus underlined to signal that you can activate that activity or component by pressing **ALT+[mnemonic]**.
+ are an idiom used by many graphical user interfaces. If a program uses mnemonics you will see certain characters in menus underlined to signal that you can choose that activity or component by pressing **ALT+[mnemonic]**.
 
-ALT+[some character] shortcuts are also very nice to use for other shortcuts. When some of the default mnemonics have lost their usefulness. When the menu bar is hidden, those mnemonics are also deactivated, so they can be used for something else. E.g. usually **ALT+F** activates the `File menu`, but as I hardly need that anymore, I have repurposed it to activate the `Find results toolbar`.
+ALT+[some character] shortcuts are also very nice to use for other shortcuts. When some of the default mnemonics have lost their usefulness, they can be repurposed. E.g. **ALT+F** activates the `File menu`, but as I hardly need that anymore, I have set it to activate the `Find results toolbar`. A self assigned shortcut shadows the default one, so this also works with the menu bar visible, so if you do that, be aware the menu bar mnemonic is "lying" from that point on.
 
 ## Choosing and Activating Dialogue Checkboxes and Buttons
 
-It's the little things. If a dialogue pops up with a bunch of choces and buttons, you could grab the mouse and click around, but you could also cycle through the control elements with **TAB**, [de]activate checkboxes with space and finally "click" on a button with **SPACE** (or also **ENTER** if the swing button fix plugin is installed).
+It's the little things. If a dialogue pops up with a bunch of choices and buttons, you could grab the mouse and click around, but you could also cycle through the control elements with **TAB**, [de]activate checkboxes with space and finally "click" on a button with **SPACE** (or also **ENTER** if the swing button fix plugin is installed).
  
 ## ... and just in general ...
 
