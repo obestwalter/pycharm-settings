@@ -34,12 +34,16 @@ You can use [xdotool (Linux)](https://github.com/jordansissel/xdotool),
 [no idea (macOs)](https://alternativeto.net/software/xdotool/?platform=mac)
 to assign a (more convenient) keyboard shortcut to activate the context menu for the active element.
 
-## Make use of Menu Mnemonics
+## Make use of Mnemonics
 
-[Menu mnemonics](https://en.wikipedia.org/wiki/Mnemonics_(keyboard))
+[Mnemonics](https://en.wikipedia.org/wiki/Mnemonics_(keyboard))
  are an idiom used by many graphical user interfaces. If a program uses mnemonics you will see certain characters in menus underlined to signal that you can choose that activity or component by pressing **ALT+[mnemonic]**.
+ 
+PyCharm has two flavours of mnemonics: menu and controls - menu mnemonics are always visible - control mnemonics are only visible when you press and hold **ALT**. This can be seen e.g. in `Find Action`: if you press and hold **ALT**, the "d" of `include disabled actions` will be underlined to indicate that you can toggle it with **ALT+d**.
 
 ALT+[some character] shortcuts are also very nice to use for other shortcuts. When some of the default mnemonics have lost their usefulness, they can be repurposed. E.g. **ALT+F** activates the `File menu`, but as I hardly need that anymore, I have set it to activate the `Find results toolbar`. A self assigned shortcut shadows the default one, so this also works with the menu bar visible, so if you do that, be aware the menu bar mnemonic is "lying" from that point on.
+
+**Hint:** you can adjust the visibility of both flavours of mnemonics independently (`Disable mnemonics ...`) 
 
 ## Choosing and Activating Dialogue Checkboxes and Buttons
 
