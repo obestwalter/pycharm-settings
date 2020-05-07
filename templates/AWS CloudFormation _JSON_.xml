@@ -1,0 +1,11 @@
+<templateSet group="AWS CloudFormation (JSON)">
+  <template name="ref" value="{ &quot;Ref&quot;: &quot;$VAL$&quot; }" description="Inserts reference to an entity" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="VAL" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="param" value="&quot;$NAME$&quot;: {&#10;  &quot;Type&quot;: &quot;$TYPE$&quot;&#10;}$END$" description="Inserts a parameter" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

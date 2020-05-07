@@ -1,5 +1,12 @@
 <application>
+  <component name="ImportFilteringUsageViewSetting">
+    <option name="SHOW_IMPORTS" value="false" />
+  </component>
+  <component name="ShowUsagesSettings">
+    <option name="GROUP_BY_FILE_STRUCTURE" value="true" />
+  </component>
   <component name="UsageViewSettings">
+    <option name="IS_PREVIEW_USAGES" value="true" />
     <option name="IS_REPLACE_PREVIEW_USAGES" value="false" />
   </component>
 </application>

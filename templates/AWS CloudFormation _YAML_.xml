@@ -1,0 +1,11 @@
+<templateSet group="AWS CloudFormation (YAML)">
+  <template name="ref" value="!Ref $VAL$" description="Inserts reference to an entity" toReformat="false" toShortenFQNames="false" deactivated="true">
+    <variable name="VAL" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="param" value="$NAME$:&#10;  Type: $TYPE$&#10;" description="Inserts a parameter" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
