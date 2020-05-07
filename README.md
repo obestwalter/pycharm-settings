@@ -41,49 +41,23 @@ to assign a (more convenient) keyboard shortcut to activate the context menu for
  
 PyCharm has two flavours of mnemonics: menu and controls - menu mnemonics are always visible - control mnemonics are only visible when you press and hold **ALT**. This can be seen e.g. in `Find Action`: if you press and hold **ALT**, the "d" of `include disabled actions` will be underlined to indicate that you can toggle it with **ALT+d**.
 
-ALT+[some character] shortcuts are also very nice to use for other shortcuts. When some of the default mnemonics have lost their usefulness, they can be repurposed. E.g. **ALT+F** activates the `File menu`, but as I hardly need that anymore, I have set it to activate the `Find results toolbar`. A self assigned shortcut shadows the default one, so this also works with the menu bar visible, so if you do that, be aware the menu bar mnemonic is "lying" from that point on.
+ALT+[some character] shortcuts are also very nice to use for custom shortcuts. When some of the default mnemonics have lost their usefulness, they can be repurposed. E.g. **ALT+F** activates the `File menu`, but as I hardly need that anymore, I have set it to activate the `Find results toolbar`. A self assigned shortcut shadows the default one, so this also works with the menu bar visible, so if you do that, be aware the menu bar mnemonic is "lying" from that point on.
 
 **Hint:** you can adjust the visibility of both flavours of mnemonics independently (`Disable mnemonics ...`) 
 
 ## Choosing and Activating Dialogue Checkboxes and Buttons
 
-It's the little things. If a dialogue pops up with a bunch of choices and buttons, you could grab the mouse and click around, but you could also cycle through the control elements with **TAB**, [de]activate checkboxes with space and finally "click" on a button with **SPACE** (or also **ENTER** if the swing button fix plugin is installed).
+If a dialogue pops up with a bunch of choices and buttons, you could grab the mouse and click around, but you could also cycle through the control elements with **TAB**, [de]activate checkboxes with space and finally "click" on a button with **SPACE** (or also **ENTER** if the swing button fix plugin is installed). You can also activate buttons using **ALT+[mnemonic]**
  
-## ... and just in general ...
-
-In whatever program or context you are: try out what you can achieve with the keyboard starting with general purpose keys like **ALT**, **TAB**, **ENTER**, **CTRL+ENTER**, **ESCAPE**. They quite often do something useful that you would otherwise have to grab the mouse for.
-
-# Some Plugins to Improve Keyboard Use
-
-Some plugins are necessary / helpful to be less dependent on the mouse.
-
-## Swing Buttons Fix
+### (Plugin) Swing Buttons Fix
 
 In most other programs, **ENTER** activates the currently chosen button. In swing (Java GUI framework) it always activates the default button independent of what is chosen. If you don't want to be bitten by this, install this plugin.
 
 **NOTE:** on my system it stops working sometimes (which is visible as chosen file is not entirely highlighted anymore) - restarting PyCharm solves it.
 
-## GoToTabs (Go To Tab 1-9)
+## ... and just in general ...
 
-**WARNING: not maintained atm**
-
-We will talk a bit more about switching versus navigating later. This plugin adds the possibility to directly navigate to a tab.
-
-GoToTabs can't cope with splitters, so you might want to try the [tab shifter plugin](https://plugins.jetbrains.com/plugin/7475-tab-shifter) as an addition if you use them.
-
-## PyVenvManage (Set Project | Module Venv)
-
-If you have your venvs in your project (e.g. when using tox), this adds a possibility to activate a venv via keyboard shortcut in the `Project View`.
-
-**Dear JetBrains:** this should be in core, don't you agree?
-
-## Keymap Exporter (Print Keymap)
-
-[Keymap Exporter](https://plugins.jetbrains.com/plugin/7066-keymap-exporter) generates a cheat sheet of your customized keyboard layout
-
-Personally don't really have a big need for this, because if I haven't memorized a shortcut yet, I will use **SHIFT,SHIFT** to find the action and can see the shortcut right away. 
-
-**Dear JetBrains:** Would it be possible to not have the keymap reference in help be a PDF but a call to a Keymap Exporter that is merged into core?
+In whatever program or context you are: try out what you can achieve with the keyboard starting with general purpose keys like **ALT**, **TAB**, **ENTER**, **CTRL+ENTER**, **ESCAPE**. They quite often do something useful that you would otherwise have to grab the mouse for.
 
 # Transforming My Navigation Habits: Loosing The Switcher
 
@@ -105,35 +79,55 @@ One of my most used keyboard shortcuts in most apps that have tabs is **CTRL+TAB
 
 **If possible (and my brain permits)** - I try to navigate to symbols rather than files. If that is not possible (e.g. in the case of text files or if I have only memorized that, where I want to go is in a certain file or folder), then I want to go directly to a file instead of switching my way there, like I used to do (even if it is open somewhere). 
 
-## ALT+y -> Jump to Navigation Bar
+## Three Ways to Open / Navigate to / create a File
+
+**open / navigate to** because with this way of working the fact if a file is currently open or not somehow looses its meaning a bit ... and creating a new file happens in the same contexts where files can be opened, but simply with a different shortcut.
+
+### ALT+P -> `Project View`
+
+**Works on all files in the project (open or closed)**
+
+Activate the `Project View` and navigate around with the arrow keys or start typing to filter for what you are looking for, `Jump to source` to open the file and jump into the editor 
+
+### CTRL+P -> `Search Everywhere -> Files`
+
+**Works on all files in the project (open or closed)**
+
+Open the `Search Everywhere` popup with the `Files` tab active to open a file from there
+ 
+### ALT+y -> Jump to Navigation Bar
+
+**Works on all files in the project (open or closed)**
 
 As I removed a lot of UI elements, the navigation bar is also gone, but sometimes it is handy to:
 * quickly see where I am or 
-* go somewhere relative to where I am now
+* open / go somewhere relative to where I am now
 
 When the navigation bar is hidden, activating that action activates the bar as a little popup instead.
 
 **ALT+y,DOWN**: open folder overview of file that I'm in at the moment
 
+In all three cases it doesn't matter if the file was already open or nor, so basically you can just think of it in terms of navigating to a file.
+
 ## CTRL+TAB -> Recent Files
+
+**Works on files that where recently opened (open or closed)**
 
 [Still file based] Almost the same as the `Switcher`, but prevents me from mindlessly pressing **CTRL+TAB** until I end up in the right tab, after having gone to the wrong one several times. This works as a habit deterrent, because `Recent Files` switches between all and changed only on repeated presses.
 
 ## CTRL+SHIFT+TAB -> Recent Locations
 
+**Works on files that where recently opened (open or closed)**
+
 A more fine grained way of switching between locations also inside of files: shows a snippet of code you have visited recently and lets you switch there (can also filter only changed bits).
-
-## ALT+[1-6] -> Go To Tab
-
-*This needs the Go to Tab Plugin*
-
-I often work on several files as part of the same activity, so I still need a convenient way to "switch" tabs, but instead of switching back and forth. Using GoToTabs I assigned **ALT+[1-6] to Go To Tab [1-6]. I also set the closing policy to max 6 and close unused first. Why 6? Because I can immediately "see" which number a tab has, if I have six. I can also still comfortably reach the 6 with my left index finger, when I press ALT with my left thumb. With seven I already need to count and need to stretch too much to get to 7 on the keyboard ... YMMV - anyway nobody will ever need more than six open tabs.
 
 ## SHIFT,SHIFT -> Search Everywhere
 
+**Works on all project files, classes, symbols and actions**
+
 This let's you reach pretty much anything all in one place or separated into Classes/Files/Symbols/Actions. Speed Searching (word border aware partial search) often leads to only having to type 3 or 4 letters before being able to pick the wanted action/location from the narrowed down list.
 
-You can also change all settings that can be toggled (don't need input or more complex settings) directly in the `Search Everyhwere` popup.
+You can also access all settings and change a lot of them right from the popup directly in the `Search Everywhere` popup.
 
 Although you can easily tab through the sections, I also set shortcuts for `File` search to **CTRL+P** and for `Action` search to **CTRL+SHIFT+P** (like in sublime text and VS code).
 
@@ -145,11 +139,11 @@ Shortcut wise, this is something I haven't figured out yet with a satisfying con
 
 What I really want is `Jump To Source` to work e.g. from the `Project View Tool Window` to jump to the file and in an active editor I want the same shortcut to do `Go to Declaration or Usages`. But if both actions have the same shortcut in an active `Jump To Source` wins over `Go to Declaration or Usages` and at first looks like it is doing the same, but when on a declaration it just jumps to the beginning of the line instead of showing usages, so my feeling would be that they should be the same action and just do the right thing depending on context just like `Go to Declaration or Usages` is already doing.
 
-My current workaround for this is to have **F3** assigned to `Jump To Source` and **SHIFT+F3** assigned to `Go to Declaration or Usages` and . 
+My current workaround for this is to have **F3** assigned to `Jump To Source` and **SHIFT+F3** assigned to `Go to Declaration or Usages` to have them at close to each other.
 
-A complete mystery to me is `Find Usages Settings...` - it doesn't seem to exist - I assigned a shortcut to it to find out what it does, but nothing happens ...
+**(aside)** A complete mystery to me is `Find Usages Settings...` - it doesn't seem to exist - I assigned a shortcut to it to find out what it does, but nothing happens ...
 
-**Dear JetBrains:** is there a way to make this more consistent? 
+**Dear JetBrains:** is there a way to make this more consistent, or am I missing something? 
 
 ## Also Important -> Navigation Inside a File
 
@@ -160,14 +154,15 @@ A complete mystery to me is `Find Usages Settings...` - it doesn't seem to exist
 * `Go to Line/Column` to jump to a specific point
 * `Find` to find text inside the editor and navigate between hots via `Find Previous/Next / Move To Previous/Next Occurrence`
 * CTRL+[UP|DOWN] go to previous|next highlighted error
+* also interesting: [Jump](https://plugins.jetbrains.com/plugin/12662-jump) or [AceJump](https://plugins.jetbrains.com/plugin/7086-acejump) (same idea as [vim easy-motion](https://github.com/easymotion/vim-easymotion))
 
 # Taking Control of my Windows and Tabs
 
 When you don't want to use the mouse to "get" somewhere in the IDE you need shortcuts to activate certain areas or manipulate their size and position.
 
-## TAB -> Switch between Sections in pop ups
+## TAB -> Switch between Sections in Popups
 
-In pop ups with tabs / different sections **TAB** switches between them 
+In popups with tabs / different sections **TAB** switches between them 
 
 ## ESC / CTRL+ESC Jump between Editor and Tool Window
 
@@ -177,13 +172,19 @@ Handy when switching back and forth between the same tool window and editors (e.
 
 I also assigned `Jump to last Tool Window` to **CTRL+ESC** to get back to the last used tool window from the editor. 
 
-**Dear JetBrains:** Maybe **ESC** could automatically jump back to the last used tool window, when the cursor is in the editor?
+**Dear JetBrains:** maybe **ESC** could automatically jump back to the last used tool window, when the cursor is in the editor and there is nothing else to do for **ESC**?
+
+## CTRL+SHIFT+F12 -> `Hide | Restore all Windows`
+
+Hide / restore all "windows" that are not actually in `View Mode -> Window` at once.
 
 ## CTRL+SHIFT+F12 / CTRL+F12 -> `Tool Windows View Modes` 
 
 I usually switch only between `Dock Pinned` and `Window`, so I assigned shortcuts only to them. 
 
-## CTRL+ALT+[ARROWS | Plus] Resize `Active Tool Window` and pop ups
+**Dear JetBrains:** here I would also like it, if this could be a toggle - switch to winndow mode if docked and otherwise switch back to the last state the tool window was in, which in my case would turn it into a toggle between "docked" and "window" - basically just like `Hide | Restore all Windows` works. 
+
+## CTRL+ALT+[ARROWS | Plus] -> Resize `Active Tool Window` and Popups
 
 Sure, you can resize them by dragging the edge with the mouse, but that gets old quickly.
 
@@ -193,19 +194,21 @@ I set it so that:
 
 ## ALT+SHIFT+F11 `Active Tool Window` -> `Move To ...`
 
-To move the window to a different edge without having to drag it with the mouse. 
+To move the window to a different edge without having to drag it with the mouse.
 
 ## ALT+F1 (on a file) Select In...
 
 E.g. if I am in the editor and want to rename the file: `Select In ... ->  Project View`, `F2`, `ESC`, done.
 
-## CTRL+^ `Select next tab` in Active Tool Window 
+## CTRL+^ / CTRL+SHIFT+^ `Editor Tabs -> Select next|previous tab` in Active Tool Window 
 
-Switching between different tabs (sadly) is different from editors but it is also possible to assign a shortcut to them.
+On first look this seems like a less powerful replacement for the `Switcher`. But there are three important differences making it more suitable for my needs:
+* repeated activation does not result in switching back and forth, which is the classic "tabbing" behaviour (neither worse not better, just different)
+* despite the name and different from the Switcher this also works on tabs in tool windows and popups, which helps making behaviour more consistent across different contexts
 
-I assigned it to the key just above the tab as it has somehow the same function how usually tabs are switched via CTRL+TAB (back from the days, when I still did that). 
+I assigned it to the key just above the tab (on german layout circumflex - a.k.a caret) as it has somehow the same function how usually tabs are switched via CTRL+TAB (back from the days, when I still did that). 
 
-**Dear Jetbrains:** Is there any way to make tabs in tool windows first class citizens that are then also shown in the `Rectent ...` dialogues? I have no idea if this is feasible from a UI perspective, but conceptually a search result is just like an editor tab that I would like to jump to directly via selection or speed search in a recent files dialogue.
+**Dear Jetbrains:** Is there any way to make tabs in tool windows first class citizens? E.g. `Commit -> Local changes` or `Git -> Log: master`, or a tab for a specific search result from a find in path operation,  would all be distinct tabs to navigate to. Those would also be shown and selectable in the `Recent ...` dialogues? I have no idea if this is feasible from a UI perspective, but conceptually a search result is just like an editor tab that I would like to jump to directly via selection or speed search in a recent files dialogue.
 
 # How to Have a Good Time with PyCharm
 
@@ -256,15 +259,6 @@ Wherever you are: start typing to see if it starts filtering (and most of the ti
 
 **BUT!** No filters in context menus (but **mnemonics**)
 
-## Context is King
-
-Actions are usually context sensitive so it matters where the keyboard focus is, when you trigger the action. So if you trigger an inspection, while on a folder in the `Project View` the inspection is set to only run inspections in that folder.
-
-In project view on a folder action is specific to that folder:
-* inspections
-* git/local history
-* reformat
-
 ## (If we still have time) Some Little Gems ...
 
 * partial VCS based undo: use `Rollback Lines`reverts only the changed chunk under the cursor to it's original state
@@ -274,8 +268,15 @@ In project view on a folder action is specific to that folder:
 * activate "change font size with CTRL+[Mouse Wheel] - it really should be on by default
 * if your date format looks all wrong e.g. in commit view `Settings -> Date Format`: `YYYY-MM-dd` and use 24 hour time are objectively the only sane settings and should be the default anyway;)
 
-# Learned something? Tweet me your favorite
+### (Plugin) Keymap Exporter (Print Keymap)
 
-*([my handle is @obestwalter](https://twitter.com/obestwalter))*
+[Keymap Exporter](https://plugins.jetbrains.com/plugin/7066-keymap-exporter) generates a cheat sheet of your customized keyboard layout. But don't forget: if you haven't memorized a shortcut yet, you can use `Search Everywhere` to find the action and can see the shortcut right away. 
+
+**Dear JetBrains:** Wouldn't it be better if `Help -> Keymap Reference` would do that, instead of always showing the default keympap?
+
+# That's it folks - thanks for listening
 
 I hope you get a few ideas about how to improve your workflow and make it more keyboard driven.
+
+**Learned something? Tweet me your favorite** ([my handle is @obestwalter](https://twitter.com/obestwalter))
+
