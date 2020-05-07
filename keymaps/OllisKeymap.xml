@@ -5,6 +5,10 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="AceAction">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -352,6 +356,9 @@
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="shift ctrl alt s" />
+  </action>
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -367,6 +374,7 @@
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
+  <action id="ShowProjectStructureSettings" />
   <action id="ShowReformatFileDialog" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="f6" />
@@ -403,18 +411,8 @@
   <action id="TabShiftActions.ShiftLeft" />
   <action id="TabShiftActions.ShiftRight" />
   <action id="TabShiftActions.ShiftUp" />
-  <action id="TabShiftActions.StretchDown">
-    <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="down" />
-  </action>
-  <action id="TabShiftActions.StretchLeft">
-    <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="left" />
-  </action>
-  <action id="TabShiftActions.StretchRight">
-    <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="right" />
-  </action>
-  <action id="TabShiftActions.StretchUp">
-    <keyboard-shortcut first-keystroke="shift ctrl alt s" second-keystroke="up" />
-  </action>
+  <action id="TabShiftActions.StretchLeft" />
+  <action id="TabShiftActions.StretchRight" />
   <action id="TabShiftActions.ToggleMaximizeRestore">
     <keyboard-shortcut first-keystroke="ctrl alt plus" />
   </action>
@@ -461,6 +459,10 @@
   <action id="XDebugger.JumpToSource" />
   <action id="com.buckstabue.stickynotes.idea.createeditstickynote.CreateStickyNoteAction">
     <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="com.gitlab.lae.intellij.jump.JumpToChar">
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="context.save" />
   <action id="tasks.close" />
