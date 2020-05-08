@@ -297,7 +297,7 @@ In popups with tabs / different sections **TAB** switches between them
 
 ### TAB / SHIFT+TAB II -> Switch between Areas in Tool Windows
 
-In the commit view you can jump between the commit message and the file chooser with **TAB / SHIFT+TAB**.
+E.g. in the commit view you can jump between the commit message and the file chooser with **TAB / SHIFT+TAB**.
 
 ### ESC / CTRL+ESC Jump between Editor and Tool Window
 
