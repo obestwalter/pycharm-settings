@@ -291,9 +291,13 @@ It is definitely worth exploring. There are a lot of knobs to customize the beha
 
 ## Taking Control of The UI
 
-### TAB -> Switch between Sections in Popups
+### TAB / SHIFT+TAB I -> Switch between Sections in Popups
 
 In popups with tabs / different sections **TAB** switches between them 
+
+### TAB / SHIFT+TAB  -> Switch between Areas in Tool Windows
+
+In the commit view you can jump between the commit message and the file chooser with **TAB / SHIFT+TAB**.
 
 ### ESC / CTRL+ESC Jump between Editor and Tool Window
 
@@ -323,9 +327,11 @@ I set it so that:
 * **CTRL+ALT+[UP|DOWN|LEFT|RIGHT]:** expands or shrinks the tool window or popup in the given direction.
 * **CTRL+ALT+Plus:** to toggle between maximized / and last unmaximized size
 
+**(aside)** precedence works in our favour here, as other shortcuts that are relevant in the editor are not shadowed by this.
+
 ### ALT+SHIFT+F11 `Active Tool Window` -> `Move To ...`
 
-To move the window to a different edge without having to drag it with the mouse.
+To move the window to a different edge without having to drag it with the mouse. This opens a little popup to choose the location.
 
 ### ALT+F1 (on a file) Select In...
 
