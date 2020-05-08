@@ -2,8 +2,9 @@
   <component name="UISettings">
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
     <option name="ALLOW_MERGE_BUTTONS" value="false" />
+    <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
     <option name="COLOR_BLINDNESS" value="deuteranopia" />
-    <option name="EDITOR_TAB_LIMIT" value="6" />
+    <option name="EDITOR_TAB_LIMIT" value="2" />
     <option name="EDITOR_TAB_PLACEMENT" value="0" />
     <option name="FULL_PATHS_IN_TITLE_BAR" value="true" />
     <option name="HIDE_TABS_IF_NEED" value="false" />
