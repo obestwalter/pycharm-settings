@@ -295,7 +295,7 @@ It is definitely worth exploring. There are a lot of knobs to customize the beha
 
 In popups with tabs / different sections **TAB** switches between them 
 
-### TAB / SHIFT+TAB  -> Switch between Areas in Tool Windows
+### TAB / SHIFT+TAB II -> Switch between Areas in Tool Windows
 
 In the commit view you can jump between the commit message and the file chooser with **TAB / SHIFT+TAB**.
 
