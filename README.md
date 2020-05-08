@@ -232,7 +232,7 @@ Activate the `Project View` and navigate around with the arrow keys or start typ
 
 #### Some important details
 
-* **ALT+DOWN** (or `Select Next Tab` - not shown by `Presentation Assistant`) -> switch between different views into the project (e.g. `Project files` shows **all** files `Project` respects exclude filters)
+* `Show List of Tabs` **ALT+DOWN** (or `Select Next Tab` - not shown by `Presentation Assistant`) -> switch between different views into the project (e.g. `Project files` shows **all** files `Project` respects exclude filters)
 * `Show Members` -> activates a hybrid view that shows the files and the containing classes/symbols
 * There is an important difference between **Enter** and `Jump to Source` that is not just valid here, but in all contexts where you can navigate nodes in a tree (e.g. also in `Structure`): Enter opens the editor at the chosen location but leaves the focus in the tree you navigate whereas `Jump to Source` also moves the focus to the chosen location in the editor 
 
