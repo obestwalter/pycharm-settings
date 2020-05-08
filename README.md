@@ -163,7 +163,7 @@ One of my most used keyboard shortcuts in most apps that have tabs is **CTRL+TAB
 
 > Navigate by symbol - not by file.
 > 
-> -- Paul Everitt (@paulweveritt)
+> -- [Paul Everitt](https://www.pauleveritt.org/about.html) 
 
 I mostly agree. If possible and my brain permits, I try to navigate to symbols rather than files. But files are often still a relevant concept:
 * navigating between text files and other file types that Pycharm doesn't "understand" (if PyCharm would start to make markdown and restructuredText navigable on the symbol level, this would be great though)
