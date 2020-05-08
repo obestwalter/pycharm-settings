@@ -6,7 +6,7 @@ Based on "Taming the Complexity of PyCharm from your Keyboard" first presented a
 
 **Intended Audience:** I believe that these materials are useful for all experience levels to learn how to use PyCharm or any other Intellij based IDE in a more keyboard centric and therefore more effective way.
 
-Using a tool mainly from the keyboard far exceeds knowing a few shortcuts to navigate somewhere quicker or manipulate code more effectively. It also means navigating and controlling the complete user interface. This grows quickly into the need to have some kind of mental model about how to go about things. This is mainly an exercise in how far you can take this keyboard centric approach.
+Using a tool mainly from the keyboard far exceeds knowing a few shortcuts to navigate somewhere quicker or manipulate code more effectively. It also means navigating and controlling the complete user interface. It also means changing the way about how think about using your tool and dropping some ingrained habits. This is mainly an exercise in how far you can take this keyboard centric approach in a vaguely systematic manner.
 
 PyCharm (or any other Intellij IDEA based tool) is quite good at making a lot if its UI keyboard accessible. There are still quite a few corners where you simply can't get without pointing and clicking (yet), so I will also be pointing out a few things, where there is still room for improvement, when you try to use the IDE in that way. It's entirely possible that some of those shortcomings are not shortcomings of the tool, but shortcomings of my own understanding and then I will hope you will get in touch and teach me a few new tricks then.
 
