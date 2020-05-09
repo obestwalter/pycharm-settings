@@ -2,27 +2,27 @@
 
 ![Maniac Mansion](_img/maniac-mansion.png)
 
+[![overview pycharm default UI](_img/pycharm-default-ui.png)](https://www.jetbrains.com/help/pycharm/guided-tour-around-the-user-interface.html)
+
+**(PyCharm default UI)**
+
+![(my german keyboard)](_img/my-german-keyboard-small.jpg)
+
+**(my german notebook keyboard (which I use most of the time))**
+
 Based on "Taming the Complexity of PyCharm from your Keyboard" first presented at the [Bangalore Python Developers Meetup](https://www.meetup.com/Bangalore-Python-Group/events/269907207)).
 
 **Intended Audience:** I believe that these materials are useful for all experience levels to learn how to use PyCharm or any other Intellij based IDE in a more keyboard centric and therefore more effective way.
 
-Using a tool mainly from the keyboard far exceeds knowing a few shortcuts to navigate somewhere quicker or manipulate code more effectively. It also means navigating and controlling the complete user interface. It also means changing the way about how think about using your tool and dropping some ingrained habits. This is mainly an exercise in how far you can take this keyboard centric approach in a vaguely systematic manner.
+Using a tool mainly from the keyboard far exceeds knowing a few shortcuts to navigate somewhere quicker or manipulate code more effectively. It also means navigating and controlling the complete user interface. It also means changing some ingrained habits. This is mainly an exercise in how far you can take this keyboard centric approach in a vaguely systematic manner.
 
-PyCharm (or any other Intellij IDEA based tool) is quite good at making a lot if its UI keyboard accessible. There are still quite a few corners where you simply can't get without pointing and clicking (yet), so I will also be pointing out a few things, where there is still room for improvement, when you try to use the IDE in that way. It's entirely possible that some of those shortcomings are not shortcomings of the tool, but shortcomings of my own understanding and then I will hope you will get in touch and teach me a few new tricks then.
+PyCharm (or any other Intellij IDEA based tool) is quite good at making a lot if its UI keyboard accessible. There are still quite a few corners where you simply can't get without pointing and clicking (yet), so I will also be pointing out a few things, where there is still room for improvement, when you try to use the IDE in that way. It's entirely possible that some of those shortcomings are not shortcomings of the tool, but shortcomings of my own understanding and then I will hope you will get in touch and teach me a few new tricks :)
 
-[![overview pycharm default UI](_img/pycharm-default-ui.png)](https://www.jetbrains.com/help/pycharm/guided-tour-around-the-user-interface.html)
-
-**(overview pycharm default UI)**
+## What you see in the screencasts
 
 ![(overview pycharm customized with screenkey and presentation assistant)](_img/pycharm-customized-for-presentation-small.png)
 
-*(overview pycharm customized with screenkey and presentation assistant)*
-
-![(my german keyboard)](_img/my-german-keyboard-small.jpg)
-
-*(my german notebook keyboard (which I use most of the time))*
-
-## What you see in the screencasts
+**(PyCharm less cluttered with screenkey and presentation assistant)**
 
 * Linux with a [tiling window manager (i3wm)](https://github.com/obestwalter/i3config)
 * PyCharm with my [customized settings](https://github.com/obestwalter/pycharm-settings)
@@ -31,7 +31,7 @@ PyCharm (or any other Intellij IDEA based tool) is quite good at making a lot if
 
 ### To make sure I don't cheat ...
 
-I switch the touchpad off most of the time - you when toggling the state a popup like this appears:
+I switch the touchpad off most of the time - you see it, when I toggle the state via a notification like this:
 
 ![notification about touchpad status](_img/touchpad-disabled.png) 
 
@@ -319,13 +319,12 @@ I usually switch only between `Dock Pinned` and `Window`, so I assigned shortcut
 
 **Dear JetBrains:** here I would also like it, if this could be a toggle - switch to window mode if docked and otherwise switch back to the last state the tool window was in, which in my case would turn it into a toggle between "docked" and "window" - basically just like `Hide | Restore all Windows` works. 
 
-### CTRL+ALT+[ARROWS | Plus] -> Resize `Active Tool Window` and Popups
+### CTRL+ALT+[ARROWS | Plus] -> Resize Tool Windows and Popups
 
 Sure, you can resize them by dragging the edge with the mouse, but that gets old quickly.
 
-I set it so that:
-* **CTRL+ALT+[UP|DOWN|LEFT|RIGHT]:** expands or shrinks the tool window or popup in the given direction.
-* **CTRL+ALT+Plus:** to toggle between maximized / and last unmaximized size
+* `Active Tool Window` -> **CTRL+ALT+[UP|DOWN|LEFT|RIGHT]** - expands or shrinks the tool window or popup in the given direction.
+* `Maximize Tool Window` **CTRL+ALT+Plus** - toggle between maximized / and last unmaximized size
 
 **(aside)** precedence works in our favour here, as other shortcuts that are relevant in the editor are not shadowed by this.
 
@@ -337,7 +336,9 @@ To move the window to a different edge without having to drag it with the mouse.
 
 E.g. if I am in the editor and want to navigate to it in my external file editor:: `Select In ... -> Show in [whatever your standard file editor is]`, `F2`, `ESC`, done.
 
-### CTRL+^ / CTRL+SHIFT+^ `Editor Tabs -> Select next|previous tab` in Active Tool Window 
+### CTRL+^ / CTRL+SHIFT+^ Switch Through Tool Window Tabs
+
+`Editor Tabs -> Select next|previous tab` in Active Tool Window 
 
 On first look this seems like a less powerful replacement for the `Switcher`. But there are three important differences making it more suitable for my needs:
 * repeated activation does not result in switching back and forth, which is the classic "tabbing" behaviour (neither worse not better, just different)
