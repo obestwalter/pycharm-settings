@@ -1,5 +1,7 @@
 # An IDE is not a Point And Click Adventure 
 
+## [Link to the video](https://youtu.be/GUz-y43iPDQ)
+
 ![Maniac Mansion](_img/maniac-mansion.png)
 
 [![overview pycharm default UI](_img/pycharm-default-ui.png)](https://www.jetbrains.com/help/pycharm/guided-tour-around-the-user-interface.html)
@@ -347,11 +349,3 @@ On first look this seems like a less powerful replacement for the `Switcher`. Bu
 I assigned it to the key just above the tab (on german layout circumflex - a.k.a caret) as it has somehow the same function how usually tabs are switched via CTRL+TAB (back from the days, when I still did that). 
 
 **Dear Jetbrains:** Is there any way to make tabs in tool windows first class citizens? E.g. `Commit -> Local changes` or `Git -> Log: master`, or a tab for a specific search result from a find in path operation,  would all be distinct tabs to navigate to. Those would also be shown and selectable in the `Recent ...` dialogues? I have no idea if this is feasible from a UI perspective, but conceptually a search result is just like an editor tab that I would like to jump to directly via selection or speed search in a recent files dialogue.
-
-# More stuff here: https://oliver.bestwalter.de
-
-That's it folks - thanks for watching / listening / reading :)
-
-I hope you get a few ideas about how to improve your own workflow and make it more keyboard driven.
-
-**Learned something? Tweet me your favorite** ([my handle is @obestwalter](https://twitter.com/obestwalter))
